@@ -2,7 +2,7 @@
 
 Este programa permite al usuario **elegir una opción del menú** para realizar diferentes acciones, como:
 
-- Ver la hora actual ⏰  
+- Ingresar Notas  
 - Consultar notas de alumnos 📚  
 - Salir del programa 🚪  
 
