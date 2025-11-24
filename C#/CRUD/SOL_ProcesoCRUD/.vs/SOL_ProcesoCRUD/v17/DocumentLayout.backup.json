@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jes\u00FAsSalmer\u00F3nArmario\\OneDrive - Solindata, S.L\\Escritorio\\CRUD\\SOL_ProcesoCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1066DD02-7ADE-49B7-8B42-0CA1E47A5B8C}|ProcesoCRUD\\ProcesoCRUD.csproj|c:\\users\\jes\u00FAssalmer\u00F3narmario\\onedrive - solindata, s.l\\escritorio\\crud\\sol_procesocrud\\procesocrud\\presentacion\\reportes\\frm_rpt_listado_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1066DD02-7ADE-49B7-8B42-0CA1E47A5B8C}|ProcesoCRUD\\ProcesoCRUD.csproj|solutionrelative:procesocrud\\presentacion\\reportes\\frm_rpt_listado_pr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm_Rpt_Listado_pr.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Jes\u00FAsSalmer\u00F3nArmario\\OneDrive - Solindata, S.L\\Escritorio\\CRUD\\SOL_ProcesoCRUD\\ProcesoCRUD\\Presentacion\\Reportes\\Frm_Rpt_Listado_pr.cs",
+              "RelativeDocumentMoniker": "ProcesoCRUD\\Presentacion\\Reportes\\Frm_Rpt_Listado_pr.cs",
+              "ToolTip": "C:\\Users\\Jes\u00FAsSalmer\u00F3nArmario\\OneDrive - Solindata, S.L\\Escritorio\\CRUD\\SOL_ProcesoCRUD\\ProcesoCRUD\\Presentacion\\Reportes\\Frm_Rpt_Listado_pr.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProcesoCRUD\\Presentacion\\Reportes\\Frm_Rpt_Listado_pr.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:40:47.506Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
