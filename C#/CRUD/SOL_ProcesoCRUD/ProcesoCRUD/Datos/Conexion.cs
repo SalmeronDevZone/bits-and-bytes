@@ -20,7 +20,7 @@ namespace ProcesoCRUD.Datos
             this.Base = "DB_CRUD";
             this.Servidor = "JESUS-SOLINDATA\\SQLEXPRESS";
             this.Usuario = "user_js";
-            this.Clave = "soporte";
+            this.Clave = "XXXXXXXX";
 
         }
 
