@@ -1,62 +1,37 @@
 # 💾 Bits and Bytes
 
-¡Bienvenido/a a **Bits and Bytes**! 👋  
-Este es mi espacio personal de aprendizaje, donde iré subiendo todo lo que vaya practicando y descubriendo sobre programación — especialmente en **Java**, **Kotlin** y **C#**.
+**Fundamentos de ingeniería de software en C#, Java y Kotlin**: aplicaciones de escritorio con arquitectura en capas, acceso a bases de datos con procedimientos almacenados, programación orientada a objetos y **8 ejercicios de Java para datos con pruebas automáticas**.
+
+[![ejercicios](https://github.com/SalmeronDevZone/bits-and-bytes/actions/workflows/ejercicios.yml/badge.svg)](https://github.com/SalmeronDevZone/bits-and-bytes/actions/workflows/ejercicios.yml)
+![C#](https://img.shields.io/badge/C%23-.NET%20Framework%204.7.2-512BD4?logo=dotnet&logoColor=white)
+![Java](https://img.shields.io/badge/Java-25-ED8B00?logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+
+## Proyectos
+
+| Proyecto | Qué es | Lo interesante |
+| --- | --- | --- |
+| [**CRUD con SQL Server**](C%23/CRUD/) | Gestión de productos (alta, consulta, modificación y baja) en Windows Forms | Arquitectura en **tres capas** (Datos, Entidades, Presentación), **procedimientos almacenados**, singleton de conexión e informes RDLC |
+| [**Magic Bank**](C%23/BasicProjects/MagicBank/) | Simulador de banco: préstamos, depósitos y saldo | Cálculo de intereses según las condiciones, validación de formularios |
+| [**C# básico**](C%23/SimpleSamples/Basic/) | Ejercicios básicos e intermedios de C# y .NET | Primeros pasos con el lenguaje |
+| [**Java (LinkiaFP)**](JAVA/BasicTraining/LinkiaFP/) | Prácticas del ciclo formativo | POO, herencia, colecciones, una tienda online y un **CRUD con JDBC y MySQL** |
+| [**Kotlin**](KOTLIN/SimpleSamples/) | Ejemplos de clases | Herencia con `open class`, propiedades y métodos |
+
+## Ejercicios: Java para datos
+
+```bash
+cd ejercicios/java
+java Pruebas.java        # Java 22+: sin Maven ni Gradle
+```
+
+Contar palabras con Unicode, validar emails, un **parser de CSV** con comillas, agregaciones con streams, top-N, fusión de intervalos, deduplicación por versión y media móvil en una sola pasada. Detalles en [`ejercicios/`](ejercicios/README.md).
+
+## Abrir los proyectos de C#
+
+Los proyectos de C# usan **.NET Framework 4.7.2** y Windows Forms: ábrelos con Visual Studio en Windows (`.sln` o `.csproj`). El CRUD necesita SQL Server: crea las tablas con `Script_Tablas.sql`, los procedimientos con `Procedimientos_almacenados.sql` y pon tu servidor y tus credenciales en `App.config`. Nunca subas credenciales reales al repositorio.
+
+Las carpetas `bin/`, `obj/` y `.vs/` se generan al compilar y no se versionan (ver [`.gitignore`](.gitignore)).
 
 ---
 
-## 🎯 Objetivo
-
-El objetivo de este repositorio es documentar mi proceso de aprendizaje, mejorar mis habilidades como desarrollador y crear una base sólida de ejemplos, proyectos y apuntes que me ayuden a crecer en el mundo del desarrollo backend y multiplataforma.
-
----
-
-## 🧩 Contenido
-
-- **/java/** → Ejercicios, ejemplos y pequeños proyectos en Java.  
-- **/kotlin/** → Prácticas y experimentos con Kotlin, tanto en consola como en Android.  
-- **/csharp/** → Código y proyectos en C#, incluyendo conceptos de .NET.  
-- **/notas/** → Apuntes, resúmenes y recursos útiles que vaya recopilando.
-
-*(La estructura puede ir creciendo o cambiando con el tiempo según mi progreso.)*
-
----
-
-## 🛠️ Tecnologías y herramientas
-
-Algunas de las herramientas y entornos que utilizaré o experimentaré:
-
-- **Java 17+**, **Spring Boot**
-- **Kotlin**, **Android Studio**
-- **C#**, **.NET 8**
-- **Git / GitHub** para control de versiones
-- **VS Code**, **IntelliJ IDEA**, **Visual Studio**
-
----
-
-## 🚀 Próximos pasos
-
-- [ ] Organizar los primeros proyectos de práctica  
-- [ ] Subir apuntes iniciales de cada lenguaje  
-- [ ] Crear un pequeño proyecto en cada uno (Java, Kotlin, C#)  
-- [ ] Añadir ejemplos de patrones de diseño y buenas prácticas  
-
----
-
-## 💡 Nota personal
-
-Este repositorio no busca ser perfecto, sino **un registro de aprendizaje continuo**.  
-Toda contribución, sugerencia o mejora es más que bienvenida 🙌
-
----
-
-### 👨‍💻 Autor
-
-**Jesús S.**  
-📬 [jsalmedev@gmail.com](mailto:jsalmedev@gmail.com)
-
----
-
-### 📄 Licencia
-
-Este proyecto se distribuye bajo la licencia **MIT**, lo que significa que puedes usar y modificar el contenido libremente, siempre que se reconozca la autoría original.
+**Jesús Salmerón** · [GitHub](https://github.com/SalmeronDevZone) · [LinkedIn](https://www.linkedin.com/in/jesussalmeronarmario/) · Licencia MIT

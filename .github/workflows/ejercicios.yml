@@ -1,0 +1,24 @@
+name: ejercicios
+
+on:
+  push:
+    branches: [main]
+    paths: ["ejercicios/**", ".github/workflows/ejercicios.yml"]
+  pull_request:
+    paths: ["ejercicios/**"]
+  workflow_dispatch:
+
+jobs:
+  java:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ejercicios/java
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "25"
+      - name: Las soluciones de referencia pasan todas las pruebas
+        run: java Pruebas.java --soluciones

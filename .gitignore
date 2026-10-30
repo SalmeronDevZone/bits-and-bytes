@@ -1,0 +1,18 @@
+# Visual Studio / .NET: se regeneran al compilar
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Java / Kotlin
+*.class
+out/
+build/
+target/
+.idea/
+*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
